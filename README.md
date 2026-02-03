@@ -7,7 +7,7 @@ A Heroku buildpack for [pandoc](http://pandoc.org).
 To install this buildpack run:
 
 ```
-$ heroku buildpacks:add https://github.com/openjournals/pandoc-buildpack.git -a [YOUR-APP-NAME]
+$ heroku buildpacks:add https://github.com/tourhero/heroku-buildpack-pandoc.git -a [YOUR-APP-NAME]
 ```
 
 The buildpack will be installed on the next heroku deploy.
