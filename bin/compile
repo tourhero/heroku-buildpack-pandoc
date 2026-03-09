@@ -4,7 +4,7 @@ BUILD_DIR=$1
 CACHE_DIR=$2
 APT_CACHE_DIR="$CACHE_DIR/apt/cache"
 APT_STATE_DIR="$CACHE_DIR/apt/state"
-PANDOC_VERSION=3.8.3
+PANDOC_VERSION=3.9
 
 mkdir -p "$APT_CACHE_DIR/archives/partial"
 mkdir -p "$APT_STATE_DIR/lists/partial"
